@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Relarium
+Comment=Relarium P2P Cryptocurrency
+Comment[fr]=Relarium, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Relarium, eşten eşe kriptografik sanal para birimi
+Exec=relarium-qt %u
+Terminal=false
+Type=Application
+Icon=relarium128
+MimeType=x-scheme-handler/relarium;
+Categories=Office;Finance;

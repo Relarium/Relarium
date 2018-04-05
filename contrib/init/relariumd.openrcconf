@@ -1,0 +1,26 @@
+# /etc/conf.d/relariumd: config file for /etc/init.d/relariumd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/relarium/relarium.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/relariumd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/relariumd.pid"
+
+# Where to write relariumd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/relariumd"
+
+# User and group to own relariumd process
+#BITCOIND_USER="relarium"
+#BITCOIND_GROUP="relarium"
+
+# Path to relariumd executable
+#BITCOIND_BIN="/usr/bin/relariumd"
+
+# Nice value to run relariumd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
